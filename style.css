@@ -20,10 +20,16 @@ html{
 body{
   margin: 0;
 }
+.quote{
+  margin: 0 5vw;
+  font-family: "Allison";
+  font-size: 24px;
+  color: #5c5c5c;
+}
 .container{
     padding: 0;
     margin: 20px 5vw ;
-    height: 100vh;
+    height: 70vh;
 }
 .logo{
   height: 41px;
