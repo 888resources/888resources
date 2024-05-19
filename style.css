@@ -13,10 +13,18 @@ body{
 }
 .container{
     padding: 0;
-    margin: 20px 20vw ;
+    margin: 20px 5vw ;
     height: 100vh;
 }
-
+.logo{
+  height: 50px;
+}
+.logo-container{
+  margin: 5px 5vw;
+}
+.header{
+  height: 60px;
+}
 
 /* CSS */
 .button-4 {
@@ -74,4 +82,20 @@ body{
 
 .button-4:-webkit-details-marker {
   display: none;
+}
+
+
+@media only screen and (max-width: 600px){
+  html{
+    background-image: url("bg.png");
+    background-repeat: no-repeat, repeat;
+    background-size: cover ;
+    background-color: #F7F7F7;
+    overflow-x: hidden;
+  }
+  .container{
+    padding: 0;
+    margin: 20px 10vw ;
+    height: 100vh;
+  }
 }
