@@ -3,10 +3,7 @@
   font-family:  Verdana, sans-serif;
   font-weight: bold;
 }
-.quote{
-  font-family: "Allison", cursive;
-  font-size: 24px;;
-}
+
 html{
   background-image: url("bg.png");
   background-repeat: no-repeat, repeat;
@@ -25,7 +22,7 @@ body{
 }
 .container{
     padding: 0;
-    margin: 20px 2vw ;
+    margin: 20px 5vw ;
     height: 100vh;
 }
 .logo{
@@ -107,7 +104,7 @@ body{
   }
   .container{
     padding: 0;
-    margin: 20px 2vw ;
+    margin: 20px 5vw ;
     height: 100vh;
   }
 }
