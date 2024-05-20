@@ -142,6 +142,9 @@ body{
   .image img{
     height: 250px;
   }
+  body{
+    max-height: 100vh;
+  }
 }
 
 .my-button{
