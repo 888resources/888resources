@@ -5,9 +5,9 @@
 }
 
 html{
-  background-image: url("bg.png");
+  background-image: url("bg2.png");
   background-repeat: no-repeat, repeat;
-  background-color: #F7F7F7;
+  background-color: #D8D8D8;
   overflow-x: hidden;
 }
 .downl-cont{
@@ -33,12 +33,16 @@ body{
 }
 .logo{
   height: 41px;
+  margin: 7px 5vw;
 }
 .logo-container{
-  margin: 5px 5vw;
+  margin: 0px 5vw;
 }
 .header{
   height: 60px;
+  margin: 0;
+  padding: 0;
+  background-color: #252525;
 }
 
 /* CSS */
@@ -102,10 +106,8 @@ body{
 
 @media only screen and (max-width: 600px){
   html{
-    background-image: url("bg.png");
     background-repeat: no-repeat, repeat;
     background-size: cover ;
-    background-color: #F7F7F7;
     overflow-x: hidden;
   }
   .container{
