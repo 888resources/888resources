@@ -33,7 +33,7 @@ body{
 }
 .logo{
   height: 41px;
-  margin: 7px 5vw;
+  margin: 8px 5vw;
 }
 .logo-container{
   margin: 0px 5vw;
@@ -42,7 +42,7 @@ body{
   height: 60px;
   margin: 0;
   padding: 0;
-  background-color: #252525;
+  background-color: #161616;
 }
 
 /* CSS */
@@ -84,11 +84,35 @@ body{
   color: #959DA5;
   cursor: default;
 }
-
+.heading{
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0;
+}
 .button-4:active {
   background-color: #EDEFF2;
   box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
   transition: none 0s;
+}
+.link{
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.651);
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.link-container{
+  margin-top: 40px;
+  margin-left: 8px;
+  background-color: rgba(0, 0, 0, 0.048);
+  width: fit-content;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 .button-4:focus {
