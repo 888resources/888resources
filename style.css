@@ -139,6 +139,9 @@ body{
     margin: 20px 5vw ;
     height: 70vh;
   }
+  .image img{
+    height: 250px;
+  }
 }
 
 .my-button{
