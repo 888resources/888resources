@@ -108,7 +108,7 @@ body{
   text-decoration: none;
 }
 .link-container{
-  margin-top: 40px;
+  margin-top: 20px;
   margin-left: 8px;
   background-color: rgba(0, 0, 0, 0.048);
   width: fit-content;
@@ -123,6 +123,30 @@ body{
 .button-4:before {
   display: none;
 }
+
+.join{
+  margin-left: 8px;
+  margin-top: 10px;
+  
+  display: inline-block;
+  font-family: 'Verdana', sans-serif;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 16px;
+  padding: 2px 20px;
+  height: 32px;
+  min-width: 60px;
+  min-height: 32px;
+  border: none;
+  color: #fff;
+  background-color: #4f545c;
+  transition: background-color .17s ease,color .17s ease;
+
+  }
+
 
 .button-4:-webkit-details-marker {
   display: none;
