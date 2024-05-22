@@ -160,6 +160,10 @@ h2{
   margin: 0;
   padding: 0;
 }
+.highlight{
+
+  font-size: 10px; border: 1px dashed rgb(66, 66, 66);background-color: rgba(0, 0, 0, 0.048); margin-left: 8px; padding: 4px 20px; width: fit-content; border-radius: 6px; margin-right: 20px;
+}
 
 
 
@@ -177,7 +181,49 @@ h2{
   font-family: "Unica One", sans-serif;
 
 }
-
+.flex-container{
+  display: flex;
+  flex-wrap: nowrap;
+}
+/*.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+*/
+.money{
+  background-color: #F7961D;
+ line-height: 10px;
+ height: 5px;
+ width: 100%;
+}
+.shelter{
+  background-color: #384EA0;
+ line-height: 10px;
+ height: 5px;
+ width: 100%;
+}
+.food{
+  background-color: #70BE44;
+ line-height: 10px;
+ height: 5px;
+ width: 100%;
+}
+.water{
+  background-color: #2FA0DA;
+ line-height: 10px;
+ height: 5px;
+ width: 100%;
+}
+.energy{
+  background-color: #F4EA30;
+ line-height: 10px;
+ height: 5px;
+ width: 100%;
+}
 .image{
   background-color: #EDEFF2;
   flex-direction: column;
