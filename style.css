@@ -28,12 +28,13 @@ body{
 }
 .container{
     padding: 0;
-    margin: 20px 5vw ;
+    margin: 30px 5vw ;
     height: 70vh;
 }
 .logo{
   height: 41px;
-  margin: 8px 5vw;
+  margin-left: 5vw;
+  margin-top: 8px;
 }
 .logo-container{
   margin: 0px 5vw;
@@ -136,7 +137,7 @@ body{
   }
   .container{
     padding: 0;
-    margin: 20px 5vw ;
+    margin: 30px 5vw ;
     height: 70vh;
   }
   .image img{
