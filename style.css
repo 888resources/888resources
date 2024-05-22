@@ -184,6 +184,8 @@ h2{
 .flex-container{
   display: flex;
   flex-wrap: nowrap;
+  margin: 0;
+  padding: 0;
 }
 /*.flex-container > div {
   background-color: #f1f1f1;
@@ -197,31 +199,31 @@ h2{
 .money{
   background-color: #F7961D;
  line-height: 10px;
- height: 5px;
+ height: 2px;
  width: 100%;
 }
 .shelter{
   background-color: #384EA0;
  line-height: 10px;
- height: 5px;
+ height: 2px;
  width: 100%;
 }
 .food{
   background-color: #70BE44;
  line-height: 10px;
- height: 5px;
+ height: 2px;
  width: 100%;
 }
 .water{
   background-color: #2FA0DA;
  line-height: 10px;
- height: 5px;
+ height: 2px;
  width: 100%;
 }
 .energy{
   background-color: #F4EA30;
  line-height: 10px;
- height: 5px;
+ height: 2px;
  width: 100%;
 }
 .image{
