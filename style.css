@@ -7,7 +7,7 @@
 html{
   background-image: url("bg2.png");
   background-repeat: no-repeat, repeat;
-  background-color: #D8D8D8;
+  background-color: #ffffff;
   overflow-x: hidden;
 }
 .downl-cont{
@@ -210,11 +210,11 @@ h2{
     text-align: center;
     padding: 1rem 2rem;
     text-transform: uppercase;
-    background-color: #cfcfcf;
+    background-color: #f8f8f8;
 }
 .copyright{
   font-size: 10px;
-  color: #625C58BF;
+  color: #a7a7a7bf;
   font-family: "Unica One", sans-serif;
 
 }
