@@ -43,7 +43,7 @@ body{
   height: 60px;
   margin: 0;
   padding: 0;
-  background-color: #161616;
+  background-color: #0f0f0f;
 }
 
 /* CSS */
@@ -210,6 +210,7 @@ h2{
     text-align: center;
     padding: 1rem 2rem;
     text-transform: uppercase;
+    background-color: #cfcfcf;
 }
 .copyright{
   font-size: 10px;
@@ -233,7 +234,7 @@ h2{
 }
 */
 .money{
-  background-color: #F7961D;
+  background-color: #7cb518;
  line-height: 10px;
  height: 3px;
  width: 100%;
