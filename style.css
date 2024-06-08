@@ -45,6 +45,23 @@ body{
   padding: 0;
   background-color: #0f0f0f;
 }
+
+.wlcm-container{
+  position: relative;
+  text-align: center;
+}
+
+.welcome-text{
+  z-index: 100;
+  position: absolute;
+  color: #384EA0;
+  font-size: 24px;
+  font-weight: bold;
+  left: 50%;
+  top: 25px;
+  font-family: "Poppins", sans-serif;
+  transform: translate(-50%, -50%);
+}
 .welcome{
   background-color: #0f0f0f;
   height: 220px;
