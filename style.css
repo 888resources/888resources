@@ -16,6 +16,15 @@ html{
   width: fit-content; 
   border-radius: 6px;
 }
+.about{
+   margin-left: 5vw;
+   color: #384EA0;
+}
+.about h2{
+  font-family: "Oswald", sans-serif;
+  color: #384EA0;
+  font-size: 30px;
+}
 
 body{
   margin: 0;
@@ -54,13 +63,13 @@ body{
 .welcome-text{
   z-index: 100;
   position: absolute;
-  color: #384EA0;
+  color: #F7961D;
   font-size: 28px;
   font-weight: bold;
   left: 50%;
   top: 35px;
   white-space: nowrap;
-  font-family: "Poppins", sans-serif;
+  font-family: "Oswald", sans-serif;
   transform: translate(-50%, -50%);
 }
 .welcome{
@@ -208,10 +217,18 @@ body{
     font-size: 13px;
     top: 13px;
   }
+
   .welcome h3{
    
     font-size: 18px;
    
+  }
+  .flex-container{
+    flex-direction: column;
+  }
+  .flex-container > div{
+    justify-content: space-between;
+    margin-bottom: 10px;
   }
   .container{
     padding: 0;
@@ -269,11 +286,43 @@ h2{
   font-family: "Unica One", sans-serif;
 
 }
+.money-b{
+  display: flex;
+  border-radius: 10px;
+  background-color: #F7961D;
+  
+}
+.shelter-b{
+  display: flex;
+  border-radius: 10px;
+  background-color: #384EA0;
+}
+.food-b{
+  display: flex;
+  border-radius: 10px;
+  background-color: #70BE44;
+}
+.water-b{
+  display: flex;
+  border-radius: 10px;
+  background-color: #2FA0DA;
+}
+.energy-b{
+  display: flex;
+  border-radius: 10px;
+  background-color: #F4EA30;
+}
 .flex-container{
   display: flex;
-  flex-wrap: nowrap;
-  margin: 0;
+  justify-content: space-between;
+  flex-wrap:nowrap;
+  margin: 20px 5vw;
   padding: 0;
+}
+.flex-container h2{
+  padding: 10px 10px 10px 10px;
+  font-family: "Allisya Regular";
+  color: white;
 }
 /*.flex-container > div {
   background-color: #f1f1f1;
