@@ -289,27 +289,32 @@ h2{
 .money-b{
   display: flex;
   border-radius: 10px;
+  border: 4px solid #F9B264;
   background-color: #F7961D;
   
 }
 .shelter-b{
   display: flex;
   border-radius: 10px;
+  border: 4px solid #7188D3;
   background-color: #384EA0;
 }
 .food-b{
   display: flex;
   border-radius: 10px;
+  border: 4px solid #B3ED8E;
   background-color: #70BE44;
 }
 .water-b{
   display: flex;
   border-radius: 10px;
+  border: 4px solid #7ED2F2;
   background-color: #2FA0DA;
 }
 .energy-b{
   display: flex;
   border-radius: 10px;
+  border: 4px solid #FFF799;
   background-color: #F4EA30;
 }
 .flex-container{
@@ -319,8 +324,12 @@ h2{
   margin: 20px 5vw;
   padding: 0;
 }
+.flex-container > div{
+  min-width: 220px;
+  justify-content: space-between;
+}
 .flex-container h2{
-  padding: 10px 10px 10px 10px;
+  padding: 15px 10px 15px 10px;
   font-family: "Allisya Regular";
   color: white;
 }
