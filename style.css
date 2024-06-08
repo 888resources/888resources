@@ -19,6 +19,7 @@ html{
 .about{
    margin-left: 5vw;
    color: #384EA0;
+   font-family: Oswald;
 }
 .about h2{
   font-family: "Oswald", sans-serif;
@@ -69,7 +70,7 @@ body{
   left: 50%;
   top: 35px;
   white-space: nowrap;
-  font-family: "Oswald", sans-serif;
+  font-family: Oswald;
   transform: translate(-50%, -50%);
 }
 .welcome{
