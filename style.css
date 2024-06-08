@@ -205,7 +205,8 @@ body{
     background-position: center;
   }
   .welcome-text{
-    font-size: 18px;
+    font-size: 13px;
+    top: 10px;
   }
   .welcome h3{
    
