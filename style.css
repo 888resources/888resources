@@ -55,10 +55,10 @@ body{
   z-index: 100;
   position: absolute;
   color: #384EA0;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: bold;
   left: 50%;
-  top: 25px;
+  top: 35px;
   font-family: "Poppins", sans-serif;
   transform: translate(-50%, -50%);
 }
@@ -202,6 +202,9 @@ body{
   }
   .welcome{
     background-position: center;
+  }
+  .welcome-text{
+    font-size: 18px;
   }
   .welcome h3{
    
