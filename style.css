@@ -154,6 +154,10 @@ body{
    font-family: Styrene;
    src: url(StyreneAWeb-Regular.woff);
 }
+@font-face {
+  font-family: Oswald;
+  src: url(oswald-regular.woff);
+}
 
 * {
    font-family: Styrene;
