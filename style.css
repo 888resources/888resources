@@ -45,6 +45,22 @@ body{
   padding: 0;
   background-color: #0f0f0f;
 }
+.welcome{
+  background-color: #0f0f0f;
+  height: 220px;
+  margin: 30px 5vw;
+  border-radius: 10px;
+  background-image: url(landscape.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.welcome h3{
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 28px;
+  color: #384EA0;
+}
 
 /* CSS */
 .button-4 {
@@ -166,6 +182,14 @@ body{
     background-repeat: no-repeat, repeat;
     background-size: cover ;
     overflow-x: hidden;
+  }
+  .welcome{
+    background-position: center;
+  }
+  .welcome h3{
+   
+    font-size: 18px;
+   
   }
   .container{
     padding: 0;
