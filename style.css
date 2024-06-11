@@ -1,8 +1,4 @@
 
-*{
-  font-family:  Verdana, sans-serif;
-  font-weight: bold;
-}
 
 html{
  /* background-image: url("bg2.png");*/
@@ -41,6 +37,7 @@ body{
 .container{
     padding: 0;
     margin: 30px 5vw ;
+  
 
   
 }
@@ -320,6 +317,8 @@ color: #f1a518;
     flex-direction: column;
     font-size: 10px;
     color: #5c5c5c;
+    font-family:  Verdana, sans-serif;
+  font-weight: bold;
 }
 .copyright{
   
