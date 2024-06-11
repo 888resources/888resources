@@ -152,6 +152,10 @@ body{
   color: #959DA5;
   cursor: default;
 }
+.menu-money{
+  background-color: #F7961D;
+ 
+}
 .heading{
   font-family: "Lato", sans-serif;
   font-weight: bold;
@@ -263,7 +267,7 @@ body{
   .container{
     padding: 0;
     margin: 30px 5vw ;
-    height: 70vh;
+ 
   }
   .image img{
     height: 250px;
