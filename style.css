@@ -23,6 +23,12 @@ html{
   color: #384EA0;
   font-size: 30px;
 }
+.research {
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #384EA0;
+}
 
 body{
   margin: 0;
@@ -55,7 +61,7 @@ body{
   text-decoration: none;
   color: white;
   font-weight: 400;
-  padding: 10px;
+  padding: 30px 10px;
   border-radius: 8px;
 }
 .menu a:hover{
@@ -72,8 +78,10 @@ body{
   height: 60px;
   margin: 0;
   padding: 0;
+  background: rgb(56,79,160);
+background: linear-gradient(90deg, rgba(56,79,160,1) 0%, rgba(48,160,218,1) 100%);
 
-  background-color: #0f0f0f;
+  background-color: #70BE44;
 }
 
 .wlcm-container{
