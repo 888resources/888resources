@@ -267,6 +267,13 @@ min-height: 100vh;
     font-size: 18px;
    
   }
+  .m-container{
+    flex-wrap: wrap;
+  }
+  .m-verse{
+
+    width: 90vw !important;
+  }
   .flex-container{
     flex-direction: column;
   }
@@ -338,7 +345,27 @@ color: #f1a518;
   font-family: "Unica One", sans-serif;
 
 }
+.m-container{
+  display: flex;
+  margin: 20px 5vw;
+  gap: 20px;
+  color: #384EA0;
+  justify-content: space-between;
+}
+.m-container h2{
+  font-size: 15px;
+}
+.m-definition{
 
+}
+.m-verse{
+  width: 20vw;
+  padding: 20px;
+  font-size: 12px;
+  font-style: italic;
+  background-color:#2fa1da27;
+  border-radius: 10px;
+}
 .whatis{
   margin-left: auto;
   margin-right: auto;
