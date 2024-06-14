@@ -33,7 +33,6 @@ html{
 
 body{
   margin: 0;
-  height: 100vh;
 }
 .quote{
   margin: 0 5vw;
@@ -150,7 +149,9 @@ background: linear-gradient(90deg, rgba(56,79,160,1) 0%, rgba(48,160,218,1) 100%
   text-decoration: none;
   transition-duration: 0.1s;
 }
-
+body{
+min-height: 100vh;
+}
 .button-4:disabled {
   background-color: #FAFBFC;
   border-color: rgba(27, 31, 35, 0.15);
@@ -281,9 +282,7 @@ background: linear-gradient(90deg, rgba(56,79,160,1) 0%, rgba(48,160,218,1) 100%
   .image img{
     height: 250px;
   }
-  body{
-    max-height: 100vh;
-  }
+  
 }
 
 .my-button{
@@ -338,6 +337,11 @@ color: #f1a518;
   color: #a7a7a7bf;
   font-family: "Unica One", sans-serif;
 
+}
+.whatis{
+
+  max-width:80vw;
+  height: 170px;
 }
 .money-b{
   display: flex;
