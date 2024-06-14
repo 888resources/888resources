@@ -338,8 +338,11 @@ color: #f1a518;
   font-family: "Unica One", sans-serif;
 
 }
-.whatis{
 
+.whatis{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   max-width:80vw;
   height: 170px;
 }
