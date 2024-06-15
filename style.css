@@ -245,14 +245,13 @@ min-height: 100vh;
   display: none;
 }
 
+
 @media only screen and (max-width: 600px){
   html{
     background-repeat: no-repeat, repeat;
     background-size: cover ;
     overflow-x: hidden;
   }
- 
-
  
   .welcome{
     background-position: center;
@@ -355,9 +354,7 @@ color: #f1a518;
 .m-container h2{
   font-size: 15px;
 }
-.m-definition{
 
-}
 .m-verse{
   width: 20vw;
   padding: 20px;
@@ -416,6 +413,7 @@ color: #f1a518;
   min-width: 220px;
   justify-content: space-between;
 }
+
 .flex-container h2{
   padding: 15px 10px 15px 10px;
   font-family: "Allisya Regular";
@@ -470,3 +468,4 @@ color: #f1a518;
     height: 100%;
     border-radius: 5px;
 }
+
