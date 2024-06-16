@@ -266,6 +266,10 @@ min-height: 100vh;
     font-size: 18px;
    
   }
+  .whatis{
+   
+    height: auto;
+  }
   .m-container{
     flex-wrap: wrap;
   }
