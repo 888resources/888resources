@@ -252,7 +252,15 @@ min-height: 100vh;
     background-size: cover ;
     overflow-x: hidden;
   }
- 
+ .icon{
+  display: block;
+  color: white;
+  font-size: 24px;
+  padding: 21px 5vw;
+ }
+ .icon:hover{
+  background-color: rgba(255, 255, 255, 0.096);
+}
   .welcome{
     background-position: center;
   }
@@ -292,7 +300,20 @@ min-height: 100vh;
   .image img{
     height: 250px;
   }
-  
+  .menu{
+    display: none;
+  }
+  .menu a{
+    padding: 21px 5vw;
+  }
+  .responsive{
+    position: absolute;
+    display: flex;
+    flex-direction:column;
+    top: 60px;
+    background-color: #384EA0;
+    width: 100%;
+  }
 }
 
 .my-button{
