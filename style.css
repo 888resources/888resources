@@ -305,14 +305,15 @@ min-height: 100vh;
   }
   .menu a{
     padding: 21px 5vw;
+
   }
   .responsive{
     position: absolute;
     display: flex;
     flex-direction:column;
     top: 60px;
-    background-color: #384EA0;
-    width: 100%;
+    background: rgb(56,79,160);
+    background: linear-gradient(90deg, rgba(56,79,160,1) 0%, rgba(48,160,218,1) 100%);    width: 100%;
   }
 }
 
