@@ -275,8 +275,8 @@ min-height: 100vh;
    
   }
   .whatis{
-   
-    height: auto;
+
+    height: 100%;
   }
   .m-container{
     flex-wrap: wrap;
