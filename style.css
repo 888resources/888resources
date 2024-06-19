@@ -6,7 +6,10 @@ html{
   background-color: #ffffff;
   overflow-x: hidden;
 }
-
+.cursive-font{
+  font-family: Allisya;
+  font-weight: normal;
+}
 .downl-cont{
   border: 1px dashed rgb(51, 51, 51); 
   padding: 4px; 
@@ -194,7 +197,7 @@ min-height: 100vh;
 }
 @font-face {
   font-family: Allisya;
-  src: url(allisya-3.woff);
+  src: url(Allisya.woff);
 }
 
 * {
@@ -453,6 +456,7 @@ color: #f1a518;
   padding: 15px 10px 15px 10px;
   font-family: Allisya;
   color: white;
+  font-weight: normal;
 }
 /*.flex-container > div {
   background-color: #f1f1f1;
