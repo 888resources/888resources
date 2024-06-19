@@ -192,6 +192,10 @@ min-height: 100vh;
   font-family: Oswald;
   src: url(oswald-regular.woff);
 }
+@font-face {
+  font-family: Allisya;
+  src: url(allisya-3.woff);
+}
 
 * {
    font-family: Styrene;
@@ -447,7 +451,7 @@ color: #f1a518;
 
 .flex-container h2{
   padding: 15px 10px 15px 10px;
-  font-family: "Allisya Regular";
+  font-family: Allisya;
   color: white;
 }
 /*.flex-container > div {
