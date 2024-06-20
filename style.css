@@ -265,6 +265,9 @@ min-height: 100vh;
   font-size: 24px;
   padding: 21px 5vw;
  }
+ .branch img{
+  width: 100% !important;
+ }
  .icon:hover{
   background-color: rgba(255, 255, 255, 0.096);
 }
