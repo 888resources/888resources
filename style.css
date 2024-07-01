@@ -156,7 +156,7 @@ height: fit-content;
 
 }
 .row img{
-  border-radius: 5px;
+  border-radius: 4px;
 }
 .col-1{
   display: flex ;
@@ -355,7 +355,7 @@ min-height: 100vh;
     display: none;
   }
   .row, .col-1, .col-2, .col-3{
-    gap:10px;
+    gap:8px;
   }
   .menu a{
     padding: 21px 5vw;
