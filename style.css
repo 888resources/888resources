@@ -37,6 +37,26 @@ html{
 body{
   margin: 0;
 }
+.footer-menu{
+
+ display: flex;
+ justify-content: space-between;
+ gap: 30px;
+ margin: 10px 0;
+}
+.footer-menu a{
+  text-decoration: none ;
+  color: #979797;
+  font-family: Styrene !important;
+  text-transform: lowercase;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.footer-menu a:hover{
+  color: #2FA0DA;
+
+}
 .quote{
   margin: 0 5vw;
   font-family: "Allison";
